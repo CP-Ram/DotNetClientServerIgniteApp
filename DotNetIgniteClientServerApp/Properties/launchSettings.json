@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "DotNetIgniteClientServerApp": {
+      "commandName": "Project",
+      "commandLineArgs": "-J-Xms500m -J-Xmx5000m  -springConfigUrl=\"server-config.xml\"",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
